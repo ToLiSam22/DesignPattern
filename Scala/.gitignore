@@ -1,0 +1,12 @@
+# sbt
+project/project/
+project/target/
+target/
+
+
+# intelliJ
+*.log
+*.iml
+*.ipr
+*.iws
+.idea
