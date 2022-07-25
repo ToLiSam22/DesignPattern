@@ -6,7 +6,7 @@ import behavior.QuackBehavior;
 public abstract class Duck {
     protected QuackBehavior quackBehavior;
     protected FlyBehavior flyBehavior;
-    protected static String TAG;
+    protected String TAG;
 
     public void display() {
         System.out.println(">> " + TAG + " <<");

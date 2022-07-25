@@ -1,5 +1,5 @@
 package behavior;
 
 public interface FlyBehavior {
-    public void fly();
+    void fly();
 }
