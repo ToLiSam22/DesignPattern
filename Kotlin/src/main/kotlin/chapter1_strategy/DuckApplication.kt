@@ -1,6 +1,6 @@
 package chapter1
 
-object Application {
+object DuckApplication {
 
     @Throws(Exception::class)
     @JvmStatic

@@ -1,6 +1,6 @@
 package chapter1
 
-class MallardDuck() : Duck() {
+class MallardDuck : Duck() {
     override var flyBehavior: FlyBehavior = FlyWithWings()
     override var quackBehavior: QuackBehavior = Quack()
 
