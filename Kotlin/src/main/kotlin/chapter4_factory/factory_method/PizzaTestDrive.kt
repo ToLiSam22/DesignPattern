@@ -3,6 +3,7 @@ package chapter4_factory.factory_method
 object PizzaTestApplication {
     @Throws(Exception::class)
     @JvmStatic
+    
     fun main(args: Array<String>) {
         val nyStore = NYPizzaStore()
         val chicagoSTore = ChicagoPizzaStore()
