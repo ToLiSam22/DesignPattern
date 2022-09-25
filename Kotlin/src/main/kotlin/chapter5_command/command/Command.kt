@@ -1,8 +1,6 @@
 package chapter5_command.command
 
-class CommandSet(
-    private val command: Command
-) {
+class CommandSet(command: Command) {
     val onCommand = OnCommand(command = command)
     val offCommand = OffCommand(command = command)
 
