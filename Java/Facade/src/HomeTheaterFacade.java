@@ -40,7 +40,7 @@ public class HomeTheaterFacade {
     public void endMovie() {
         System.out.println("===홈시어터를 끄는 중===");
         popper.off();
-        lights.on();
+        lights.off();
         screen.up();
         projector.off();
         amp.off();
