@@ -18,7 +18,7 @@ class Duck(ABC):
     def display(self):
         pass
 
-    def swim(self):
+    def swim(self):imag
         print("물에 둥둥")
 
     def perform_fly(self):
