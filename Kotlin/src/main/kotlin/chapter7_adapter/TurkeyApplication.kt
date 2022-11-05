@@ -13,7 +13,7 @@ object TurkeyApplication {
 
         val duckList = listOf(duck, turkeyAdapter, wildTurkeyAdapter)
         for (d in duckList) {
-            d.quak()
+            d.quack()
             d.fly()
             println()
         }
