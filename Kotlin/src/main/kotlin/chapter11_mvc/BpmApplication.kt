@@ -8,9 +8,13 @@ object BpmApplication {
         val controller = Controller()
         // view에서 입력된 값을 controller에 전달하기 위해서!
         val view = View(controller = controller)
-        // model의 값이 바뀌면
-        val model = Model(view = view)
-        controller.setModel(model = model)
-        view.updateBpm(Model.INIT_BPM)
+        val bpmModel = BPMModel(view = view)
+        val heartRateModel = HeartRateModel(view = view)
+
+        //controller.setModel(model = bpmModel)
+        //view.updateBpm(name = bpmModel.name, bpm = bpmModel.bpm)
+
+        controller.setModel(model = heartRateModel)
+        controller.on()
     }
 }

@@ -5,10 +5,10 @@ import kotlin.system.exitProcess
 class View(
     private val controller: Controller,
 ) {
-    fun updateBpm(bpm: Int) {
-        println("+---------------------+")
-        println("| CURRENT BPM: $bpm     |")
-        println("+---------------------+")
+    fun updateBpm(name: String, bpm: Int, offset: String) {
+        println("+----------------------------+")
+        println("| CURRENT $name: $bpm $offset|")
+        println("+----------------------------+")
         getBpmFromUser()
     }
 
